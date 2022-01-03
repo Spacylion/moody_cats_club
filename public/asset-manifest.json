@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50cf900c.chunk.css",
+    "main.js": "/static/js/main.906ae927.chunk.js",
+    "main.js.map": "/static/js/main.906ae927.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d79c2c78.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d79c2c78.js.map",
+    "static/js/2.78406960.chunk.js": "/static/js/2.78406960.chunk.js",
+    "static/js/2.78406960.chunk.js.map": "/static/js/2.78406960.chunk.js.map",
+    "static/js/3.09a711fc.chunk.js": "/static/js/3.09a711fc.chunk.js",
+    "static/js/3.09a711fc.chunk.js.map": "/static/js/3.09a711fc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.50cf900c.chunk.css.map": "/static/css/main.50cf900c.chunk.css.map",
+    "static/js/2.78406960.chunk.js.LICENSE.txt": "/static/js/2.78406960.chunk.js.LICENSE.txt",
+    "static/media/Diva.ab0ad27b.jpg": "/static/media/Diva.ab0ad27b.jpg",
+    "static/media/Diva1.5391d768.jpg": "/static/media/Diva1.5391d768.jpg",
+    "static/media/Diva2.2123496a.jpg": "/static/media/Diva2.2123496a.jpg",
+    "static/media/Diva3.32e9698c.jpg": "/static/media/Diva3.32e9698c.jpg",
+    "static/media/Diva4.7622bae3.jpg": "/static/media/Diva4.7622bae3.jpg",
+    "static/media/Diva5.55049676.jpg": "/static/media/Diva5.55049676.jpg",
+    "static/media/dev(1).b96eca5b.png": "/static/media/dev(1).b96eca5b.png",
+    "static/media/dev(3).578d3af2.png": "/static/media/dev(3).578d3af2.png",
+    "static/media/devA.340e5c79.jpg": "/static/media/devA.340e5c79.jpg",
+    "static/media/devG.944f452a.png": "/static/media/devG.944f452a.png",
+    "static/media/dino3.913b3909.png": "/static/media/dino3.913b3909.png",
+    "static/media/reset.css": "/static/media/font.617a0a92.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d79c2c78.js",
+    "static/js/2.78406960.chunk.js",
+    "static/css/main.50cf900c.chunk.css",
+    "static/js/main.906ae927.chunk.js"
+  ]
+}

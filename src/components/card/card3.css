@@ -1,0 +1,37 @@
+.image-card2 {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 1rem;
+  width: 480px;
+  height: 640px;
+  padding: 8px;
+  border-radius: 1rem;
+  background: url(../../img/3BlackPC.png);
+  box-shadow: rgba(221, 200, 83, 0.671) 0px 25px 50px 42px;
+}
+
+.perspective-right2 {
+  transform: perspective(1500px) rotateY(-35deg) rotateX(10deg);
+  transition: transform 2s ease 0s;
+}
+
+.perspective-right2:hover {
+  transform: perspective(3000px) rotateY(-25deg) rotateX(-5deg);
+}
+
+@media screen and (max-width: 480px) {
+  .image-card2 {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 1rem;
+    width: 240px;
+    height: 320px;
+    margin-left: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    background: url(../../img/3BlackMobile.png);
+    box-shadow: rgba(221, 200, 83, 0.671) 0px 25px 50px 42px;
+  }
+}

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+* {
+  font-family: "Zen Dots", cursive;
+  font-weight: 600;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.HoverButton {
+  text-decoration: none;
+  border: none;
+  border-radius: 35px;
+  padding: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.HoverButton1 {
+  text-decoration: none;
+  border: none;
+  border-radius: 35px;
+  padding: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-color: rgb(0, 119, 255);
+  text-decoration: none;
+  color: white;
+}
+.textHover {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+}
+.textHover:hover {
+  color: rgb(201, 201, 201);
+}
+.ColDiv {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.ConnectText {
+  font-family: "Zen Dots", cursive;
+}
+
+.MintNowText {
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+}
+
+.buttonToggler {
+  align-content: center;
+  justify-content: center;
+  width: 20%;
+  height: 30px;
+  color: black;
+}
+@media screen and (max-width: 480px) {
+}

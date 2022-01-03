@@ -1,0 +1,23 @@
+.LogoBar {
+  width: 70px;
+  margin: 10px;
+}
+.NavMenuDiv {
+  margin-right: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+.Moody {
+    font-size: 35px;
+  }
+@media screen and (max-width: 480px) {
+  .LogoBar {
+    width: 90px;
+    margin: 20px;
+  }
+
+.Moody {
+    font-size: 20px;
+  }
+}

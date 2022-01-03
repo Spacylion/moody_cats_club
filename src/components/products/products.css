@@ -1,0 +1,51 @@
+.products_div {
+  width: 50%;
+  height: 55vh;
+  margin: 20px 10px;
+  border: 2px solid rgb(100, 67, 67);
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+}
+
+.roadmapImg {
+  width: 100%;
+  transition: all 15s ease;
+}
+
+.products_div:hover .roadmapImg {
+  transform: translateY(-100%);
+}
+
+.p-browser {
+  height: 20px;
+  background-color: rgb(197, 194, 194);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 2;
+}
+.p-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: #fff;
+}
+.p-circle-1 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-left: 12px;
+  margin-right: 3px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .products_div {
+    width: 50%;
+    height: 20vh;
+  }
+  .div_products {
+    padding: 50px;
+  }
+}

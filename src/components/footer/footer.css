@@ -1,0 +1,40 @@
+.footer_div {
+  width: 100%;
+  height: 0px;
+}
+.footer_row {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.navbar_foot {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  background: #111;
+}
+.navbar_foot_row {
+  flex-direction: row;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  background: #111;
+}
+.footer_text {
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    bottom: 0px;
+  }
+  .Opensea {
+    mix-blend-mode: color-dodge;
+  }
+  .footer_row {
+    height: 0%;
+  }
+}

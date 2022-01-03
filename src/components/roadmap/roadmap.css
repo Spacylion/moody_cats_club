@@ -1,0 +1,134 @@
+.pl {
+  padding: 10px 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../img/backgr.png);
+  text-align: center;
+}
+.frame {
+  background-color: rgba(97, 50, 50, 0.603);
+  width: 50%;
+  height: 130vh;
+  border-radius: 50px;
+  justify-content: center;
+
+  text-align: center;
+}
+.glow {
+  font-size: 60px;
+  color: rgb(46, 46, 46);
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px #e60063, 0 0 40px #e60073,
+      0 0 50px #e60073, 0 0 60px #e60073, 0 0 50px #e60073;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 20px #4d50ff, 0 0 10px #4d5fff,
+      0 0 50px #504dff, 0 0 60px #4d50ff, 0 0 70px #4d50ff, 0 0 60px #8b4dff;
+  }
+}
+.glow1 {
+  font-size: 30px;
+  color: rgb(46, 46, 46);
+  text-align: center;
+  -webkit-animation: glow1 1s ease-in-out infinite alternate;
+  -moz-animation: glow1 1s ease-in-out infinite alternate;
+  animation: glow1 1s ease-in-out infinite alternate;
+}
+@keyframes glow1 {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px #e60063, 0 0 40px #e60073,
+      0 0 50px #e60073, 0 0 60px #e60073, 0 0 50px #e60073;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 20px #4d50ff, 0 0 10px #4d5fff,
+      0 0 50px #504dff, 0 0 60px #4d50ff, 0 0 70px #4d50ff, 0 0 60px #8b4dff;
+  }
+}
+
+.pl-texts {
+  width: 100%;
+}
+
+.pl-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.pl-desc {
+  margin: 20px 0px;
+}
+
+.pl-list {
+  width: 100%;
+  display: flex;
+  position: sticky;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.accordion_div {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.accordion_div1 {
+  color: #4d5fff;
+  background-color: #44001e;
+  font-family: "Zen Dots", cursive;
+}
+.accordion_div2 {
+  color: #4d5fff;
+  background-color: #8d003d;
+  font-family: "Zen Dots", cursive;
+}
+.accordion_div3 {
+  color: #4d5fff;
+  background-color: #cc0058;
+  font-family: "Zen Dots", cursive;
+}
+.accordion_div4 {
+  color: #4d5fff;
+  background-color: #ff006f;
+  font-family: "Zen Dots", cursive;
+}
+
+.mobile_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  .frame {
+    background-color: rgba(97, 50, 50, 0.603);
+    width: 100%;
+    border-radius: 10px;
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+  }
+  .mobile_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 80px;
+  }
+
+  .pl {
+    background-color: black;
+    background-image: none;
+    align-content: center;
+    justify-content: center;
+  }
+  .accordion_div {
+    padding: 2.87%;
+  }
+}
